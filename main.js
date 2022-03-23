@@ -64,7 +64,7 @@ if(results.length > 0){
     left_wrist_y = results[0].pose.leftWrist.y;
 
     right_wrist_x = results[0].pose.rightWrist.x;
-    right_wrist_x = results[0].pose.rightWrist.y;
+    right_wrist_y = results[0].pose.rightWrist.y;
 
     leftWrist_score = results[0].pose.keypoints[9].score;
     rightWrist_score = results[0].pose.keypoints[10].score;
